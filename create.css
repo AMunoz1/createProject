@@ -1,11 +1,14 @@
 .button1 {
     margin-bottom:50%;
     margin-left:50%;
-   border-radius:12px;
-   font-size:25px;
+    border-radius:12px;
+    font-size:25px;
 
 
 }
 body {
-    background: url(parchment.jpg) no-repeat center center fixed;
+    background: url(parchment.jpg) ;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
