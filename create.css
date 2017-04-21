@@ -2,18 +2,30 @@
     margin-top:10%;
     margin-left:45%;
 }
-.attackbutton {
+#btn1 {
     margin-top:5%;
     margin-left:30%;
     font-size:50px;
     visibility:visible;
 
 }
-.checkbutton {
+#btn2 {
     margin-top:5%;
-    margin-left:15%;
+    margin-left:0%;
     font-size:50px;
     visibility:visible;
+}
+#btn3 {
+    margin-top:5%;
+    margin-left:4%;
+    font-size:50px;
+    visibility:hidden;
+}
+#btn4 {
+    margin-top:5%;
+     margin-left:4%;
+    font-size:50px;
+    visibility:hidden;
 }
 .title {
     margin-top:10%;
@@ -53,8 +65,12 @@
 .absolute-text{position:absolute; bottom:40; left:0; font-size:25px;
 padding:10px 20px; width:100%; text-align:center;
 }
-.absolute-text1{position:absolute; top:170; left:0; font-size:25px;
+#absolute-text1{position:absolute; top:170; left:0; font-size:25px;
+padding:10px 20px; width:100%; text-align:center; visibility:visible;
+}
+#texttohide{position:absolute; top:170; left:0; font-size:25px;
 padding:10px 20px; width:100%; text-align:center;
+    visibility:hidden;
 }
 
 

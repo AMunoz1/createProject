@@ -8,11 +8,14 @@
     </head>
 
     <body id=body1>
-        <p class="absolute-text1"> The hungry beast makes a low growl as it readys itself for a potential meal. What is your move?</p>
+        <p id="absolute-text1"> The hungry beast makes a low growl as it readys itself for a potential meal. What is your move?</p>
         <embed src="dogfight.mp3" loop="true" autoplay="true" hidden="true"></embed>
         <img id=dog src="dog.png" height = 300; width =300; ><br>
-          <button id="btn1" onclick="document.getElementById('btn1').innerHTML='pic_bulbon.gif'" onclick="Btnhide();" type="button" class=attackbutton>ATTACK</button>
-          <button id="btn2" type="button" class=checkbutton>CHECK</button>
+          <button id="btn1" onclick="document.getElementById('btn1').innerHTML='PUNCH', document.getElementById('btn2').style.visibility='hidden', document.getElementById('btn3').style.visibility='visible', document.getElementById('btn4').style.visibility='visible'" >ATTACK</button>
+          <button id="btn3" type="button">KICK</button>
+          <button id="btn4" type="button">POKE</button>
+          <button id="btn2" type="button" onclick="document.getElementById('texttohide').style.visibility='visible',document.getElementById('absolute-text1').style.visibility='hidden', document.getElementById('btn1').style.visibility='hidden'">CHECK</button>
+          <div id="texttohide"> The beast does not seem inherantly evil, and may back off if it's hunger is sated </div>
 
     </body>
 </html>
