@@ -17,13 +17,25 @@
 }
 #btn3 {
     margin-top:5%;
-    margin-left:4%;
+    margin-left:0%;
     font-size:50px;
     visibility:hidden;
 }
 #btn4 {
     margin-top:5%;
-     margin-left:4%;
+     margin-left:0%;
+    font-size:50px;
+    visibility:hidden;
+}
+#btn5 {
+    margin-top:5%;
+     margin-left:0%;
+    font-size:50px;
+    visibility:hidden;
+}
+#backbtn1 {
+    margin-top:5%;
+     margin-left:0%;
     font-size:50px;
     visibility:hidden;
 }
