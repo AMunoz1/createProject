@@ -1,24 +1,25 @@
 <html>
-      <html lang="en">
-    <script>src="create.js"</script>
-    <head>
+<html lang="en">
+<script>
+    src = "create.js"
+</script>
+
+<head>
     <title>Create Project</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href = "create.css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    </head>
+    <link rel="stylesheet" href="create.css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> </head>
 
-    <body id=body1>
-        <p id="absolute-text1"> The hungry beast makes a low growl as it readys itself for a potential meal. What is your move?</p>
-        <embed src="dogfight.mp3" loop="true" autoplay="true" hidden="true"></embed>
-        <img id=dog src="dog.png" height = 300; width =300; ><br>
-          <button id="btn1" onclick="document.getElementById('btn1').style.visibility='hidden', document.getElementById('btn5').style.visibility='visible' document.getElementById('btn2').style.visibility='hidden', document.getElementById('btn3').style.visibility='visible', document.getElementById('btn4').style.visibility='visible'" >ATTACK</button>
-          <button id="btn3" type="button">KICK</button>
-          <button id="btn4" type="button">POKE</button>
-          <button id="btn5" type="button">PUNCH</button>
-           <button id="backbtn1" type="button" onclick="document.getElementById('btn1').style.visibility='visible', document.getElementById('btn2').style.visibility='visible',document.getElementById('backbtn1').style.visibility='hidden',document.getElementById('texttohide').style.visibility='hidden',document.getElementById('absolute-text1').style.visibility='visible'">BACK</button>
-          <button id="btn2" type="button" onclick="document.getElementById('btn2').style.visibility='hidden',document.getElementById('texttohide').style.visibility='visible',document.getElementById('absolute-text1').style.visibility='hidden', document.getElementById('btn1').style.visibility='hidden', document.getElementById('backbtn1').style.visibility='visible'">CHECK</button>
-          <div id="texttohide"> The beast does not seem inherantly evil, and may back off if it's hunger is sated </div>
+<body id=body1>
+    <p id="absolute-text1"> The hungry beast makes a low growl as it readys itself for a potential meal. What is your move?</p>
+    <embed src="dogfight.mp3" loop="true" autoplay="true" hidden="true"></embed> <img id=dog src="dog.png" height=300; width=300;>
+    <br>
+    <button id="btn1" onclick="document.getElementById('btn1').style.visibility='hidden', document.getElementById('btn5').style.visibility='visible', document.getElementById('btn2').style.visibility='hidden', document.getElementById('btn3').style.visibility='visible', document.getElementById('btn4').style.visibility='visible', document.getElementById('backbtn1').style.visibility='visible'">ATTACK</button>
+    <button id="btn3" type="button">KICK</button>
+    <button id="btn4" type="button">POKE</button>
+    <button id="btn5" type="button">PUNCH</button>
+    <button id="backbtn1" type="button" onclick="document.getElementById('btn1').style.visibility='visible', document.getElementById('btn2').style.visibility='visible',document.getElementById('backbtn1').style.visibility='hidden',document.getElementById('texttohide').style.visibility='hidden',document.getElementById('absolute-text1').style.visibility='visible',document.getElementById('btn3').style.visibility='hidden',document.getElementById('btn4').style.visibility='hidden',document.getElementById('btn5').style.visibility='hidden'">BACK</button>
+    <button id="btn2" type="button" onclick="document.getElementById('btn2').style.visibility='hidden',document.getElementById('texttohide').style.visibility='visible',document.getElementById('absolute-text1').style.visibility='hidden', document.getElementById('btn1').style.visibility='hidden', document.getElementById('backbtn1').style.visibility='visible'">CHECK</button>
+    <div id="texttohide"> The beast does not seem inherantly evil, and may back off if it's hunger is sated </div>
+</body>
 
-
-    </body>
 </html>

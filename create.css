@@ -1,88 +1,141 @@
 .playbutton {
-    margin-top:10%;
-    margin-left:45%;
+    margin-top: 10%;
+    margin-left: 45%;
 }
+
+#choicebtn {
+    font-size: 25px;
+    visibility: visible;
+}
+
 #btn1 {
-    margin-top:5%;
-    margin-left:30%;
-    font-size:50px;
-    visibility:visible;
-
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 50px;
+    visibility: visible;
 }
+
 #btn2 {
-    margin-top:5%;
-    margin-left:0%;
-    font-size:50px;
-    visibility:visible;
+    margin-top: 5%;
+    margin-left: 0%;
+    font-size: 50px;
+    visibility: visible;
 }
-#btn3 {
-    margin-top:5%;
-    margin-left:0%;
-    font-size:50px;
-    visibility:hidden;
-}
-#btn4 {
-    margin-top:5%;
-     margin-left:0%;
-    font-size:50px;
-    visibility:hidden;
-}
-#btn5 {
-    margin-top:5%;
-     margin-left:0%;
-    font-size:50px;
-    visibility:hidden;
-}
-#backbtn1 {
-    margin-top:5%;
-     margin-left:0%;
-    font-size:50px;
-    visibility:hidden;
-}
-.title {
-    margin-top:10%;
-    margin-left: 10%;
 
+#btn3 {
+    margin-top: 5%;
+    margin-left: 0%;
+    font-size: 50px;
+    visibility: hidden;
 }
+
+#btn4 {
+    margin-top: 5%;
+    margin-left: 0%;
+    font-size: 50px;
+    visibility: hidden;
+}
+
+#btn5 {
+    margin-top: 5%;
+    margin-left: 0%;
+    font-size: 50px;
+    visibility: hidden;
+}
+
+#backbtn1 {
+    margin-top: 5%;
+    margin-left: 0%;
+    font-size: 50px;
+    visibility: hidden;
+}
+#continuebtn {
+font-size: 50px;
+}
+
+.title {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
 #body1 {
-    background: url(parchment.jpg) ;
-    background-size:     cover;
-    background-repeat:   no-repeat;
+    background: url(parchment.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
 }
+
 #body2 {
-     background: url(street.jpg);
-    background-size:     cover;
-    background-repeat:   no-repeat;
+    background: url(street.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
 }
 
 #tr1 {
-    height:550px;
+    height: 550px;
+}
 
-}
 #dog {
-    margin-left:40%;
-    margin-top:15%;
+    margin-left: 40%;
+    margin-top: 15%;
 }
+
 .table1 {
     width: 100%;
     font-size: 150%;
-    text-align:center;
-
-}
-.relative{position:relative; width:450px;
+    text-align: center;
 }
 
-.absolute-text{position:absolute; bottom:40; left:0; font-size:25px;
-padding:10px 20px; width:100%; text-align:center;
+.relative {
+    position: relative;
+    width: 450px;
 }
-#absolute-text1{position:absolute; top:170; left:0; font-size:25px;
-padding:10px 20px; width:100%; text-align:center; visibility:visible;
-}
-#texttohide{position:absolute; top:170; left:0; font-size:25px;
-padding:10px 20px; width:100%; text-align:center;
-    visibility:hidden;
+#losetext {
+    position: relative;
+    width:450px;
+    top: 30%;
+    left: 37%;
 }
 
+.absolute-text {
+    position: absolute;
+    bottom: 40;
+    left: 0;
+    font-size: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+}
 
+#absolute-text1 {
+    position: absolute;
+    top: 170;
+    left: 0;
+    font-size: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    visibility: visible;
+}
+#lose-text {
+    position: absolute;
+    top:30px;
+    left:7px;
+    font-size: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    visibility: visible;
+}
+
+#texttohide {
+    position: absolute;
+    top: 170;
+    left: 0;
+    font-size: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
+}
