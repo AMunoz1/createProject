@@ -1,7 +1,7 @@
 <html>
 <html lang="en">
 <script src="create.js">
-    //  enemy();
+    var myDog = new enemy("dog");
 </script>
 
 <head>
@@ -14,14 +14,14 @@
     <embed src="dogfight.mp3" loop="true" autoplay="true" hidden="true"></embed> <img id=dog src="dog.png" height=300; width=300;>
     <br>
     <button id="btn1" onclick="btn1();">ATTACK</button>
-    <button id="btn3" type="button" onclick=" btn3(), kick()">KICK</button>
-    <button id="btn4" type="button" onclick=" btn4(), pet()">FEED</button>
-    <button id="btn5" type="button" onclick=" btn5(), punch()">PUNCH</button>
+    <button id="btn3" type="button" onclick=" btn3(), myDog.attack()">KICK</button>
+    <button id="btn4" type="button" onclick=" btn4(), myDog.feed()">FEED</button>
+    <button id="btn5" type="button" onclick=" btn5(), myDog.attack()">PUNCH</button>
     <button id="backbtn1" type="button" onclick="backbtn1();">BACK</button>
     <button id="btn2" type="button" onclick="checkbtn();">CHECK</button>
     <div id="texttohide">The beast does not seem inherantly evil, and may back off if it's hunger is sated</div>
     <div id="texttohide2">The beast appears to be calming down, a bit more should do the trick!</div>
-    <div id="texttohide3">Your attack missed, and the beast appears to be even more riled up, it is almost ready to pounce!</div>
+    <div id="texttohide3">Your attack missed, and the beast appears to be even more riled up, it is almost ready to pounce! Perhaps a different course of action is required</div>
 </body>
 
 </html>

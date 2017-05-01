@@ -1,31 +1,16 @@
 function enemy(species) {
     this.species = species;
-    this.focus=0
-    if (this.species = "dog.png"){
-          this.focus = 2;
-    }
-
-       }
- function punch() {
-     if (this.species = "dog.png") {
-         this.focus=this.focus+1;
-         console.log(this.focus);
-     }
-     }
-
-function kick() {
-    if (this.species = "dog.png") {
-        this.focus=this.focus+1;
-        console.log(this.focus);
+    this.focus = 0;
+    if (this.species == "dog") {
+        this.focus = 0;
+        this.attack = function () {
+            return focus++;
+        }
+        this.feed = function () {
+            return focus--;
+        }
     }
 }
-function pet() {
-    if (this.species = "dog.png") {
-        this.focus=this.focus-1;
-        console.log(this.focus);
-    }
-
-    }
 
 function btn1() {
     document.getElementById('btn1').style.visibility = 'hidden';
