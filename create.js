@@ -1,16 +1,19 @@
 function enemy(species) {
     this.species = species;
-    this.focus = 0;
+    this.focus = focus;
     if (this.species == "dog") {
         this.focus = 0;
         this.attack = function () {
-            return focus++;
+            focus=focus+1;
+            return focus;
         }
         this.feed = function () {
-            return focus--;
+            focus=focus-1;
+            return focus;
         }
     }
 }
+var myDog = new enemy("dog");
 
 function btn1() {
     document.getElementById('btn1').style.visibility = 'hidden';
