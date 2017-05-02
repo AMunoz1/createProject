@@ -1,6 +1,7 @@
 <html>
 <html lang="en">
 <script src="create.js">
+    function enemy();
 </script>
 
 <head>
@@ -13,12 +14,14 @@
     <embed src="dogfight.mp3" loop="true" autoplay="true" hidden="true"></embed> <img id=dog src="dog.png" height=300; width=300;>
     <br>
     <button id="btn1" onclick="document.getElementById('btn1').style.visibility='hidden', document.getElementById('btn5').style.visibility='visible', document.getElementById('btn2').style.visibility='hidden', document.getElementById('btn3').style.visibility='visible', document.getElementById('btn4').style.visibility='visible', document.getElementById('backbtn1').style.visibility='visible'">ATTACK</button>
-    <button id="btn3" type="button" onclick="kick(); second();">KICK</button>
-    <button id="btn4" type="button" onclick="pet(); third();">PET</button>
-    <button id="btn5" type="button" onclick="punch(); first()">PUNCH</button>
-    <button id="backbtn1" type="button" onclick="document.getElementById('btn1').style.visibility='visible', document.getElementById('btn2').style.visibility='visible',document.getElementById('backbtn1').style.visibility='hidden',document.getElementById('texttohide').style.visibility='hidden',document.getElementById('absolute-text1').style.visibility='visible',document.getElementById('btn3').style.visibility='hidden',document.getElementById('btn4').style.visibility='hidden',document.getElementById('btn5').style.visibility='hidden'">BACK</button>
+    <button id="btn3" type="button" onclick="document.getElementById('btn2').style.visibility='hidden',document.getElementById('texttohide').style.visibility='hidden',document.getElementById('texttohide2').style.visibility='visible',document.getElementById('absolute-text1').style.visibility='hidden', document.getElementById('btn1').style.visibility='hidden',document.getElementById('btn2').style.visibility='hidden',document.getElementById('btn3').style.visibility='hidden',document.getElementById('btn4').style.visibility='hidden',document.getElementById('btn5').style.visibility='hidden', document.getElementById('backbtn1').style.visibility='visible', kick();">KICK</button>
+    <button id="btn4" type="button" onclick="document.getElementById('btn2').style.visibility='hidden',document.getElementById('texttohide').style.visibility='hidden',document.getElementById('texttohide2').style.visibility='hidden',document.getElementById('texttohide3').style.visibility='visible',document.getElementById('absolute-text1').style.visibility='hidden', document.getElementById('btn1').style.visibility='hidden',document.getElementById('btn2').style.visibility='hidden',document.getElementById('btn3').style.visibility='hidden',document.getElementById('btn4').style.visibility='hidden',document.getElementById('btn5').style.visibility='hidden', document.getElementById('backbtn1').style.visibility='visible',pet();">PET</button>
+    <button id="btn5" type="button" onclick="punch();">PUNCH</button>
+    <button id="backbtn1" type="button" onclick="document.getElementById('btn1').style.visibility='visible', document.getElementById('btn2').style.visibility='visible',document.getElementById('backbtn1').style.visibility='hidden',document.getElementById('texttohide').style.visibility='hidden',document.getElementById('absolute-text1').style.visibility='visible',document.getElementById('btn3').style.visibility='hidden',document.getElementById('texttohide2').style.visibility='hidden',document.getElementById('btn4').style.visibility='hidden',document.getElementById('btn5').style.visibility='hidden,document.getElementById('texttohide3').style.visibility='hidden'">BACK</button>
     <button id="btn2" type="button" onclick="document.getElementById('btn2').style.visibility='hidden',document.getElementById('texttohide').style.visibility='visible',document.getElementById('absolute-text1').style.visibility='hidden', document.getElementById('btn1').style.visibility='hidden', document.getElementById('backbtn1').style.visibility='visible'">CHECK</button>
     <div id="texttohide">The beast does not seem inherantly evil, and may back off if it's hunger is sated</div>
+    <div id="texttohide2">Your swing misses, and the dog is enraged! it is nearly ready to pounce!</div>
+    <div id="texttohide3">The beast appears to have nearly calmed down, a bit more should do the trick!</div>
 
 </body>
 

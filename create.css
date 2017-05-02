@@ -133,7 +133,27 @@ font-size: 50px;
     position: absolute;
     top: 170;
     left: 0;
-    font-size: 25px;
+    font-size: 30px;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
+}
+#texttohide2 {
+    position: absolute;
+    top: 170;
+    left: 0;
+    font-size: 30px;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
+}
+#texttohide3 {
+    position: absolute;
+    top: 170;
+    left: 0;
+    font-size: 30px;
     padding: 10px 20px;
     width: 100%;
     text-align: center;
